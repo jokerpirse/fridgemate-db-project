@@ -1,0 +1,23 @@
+{
+  "table_count": 18,
+  "item_count": 4,
+  "integrated_rows": 7,
+  "image_paths": [
+    [
+      "우유",
+      "images/milk.png"
+    ],
+    [
+      "계란",
+      "images/egg.png"
+    ],
+    [
+      "딸기",
+      "images/strawberry.png"
+    ],
+    [
+      "두부",
+      "images/tofu.png"
+    ]
+  ]
+}

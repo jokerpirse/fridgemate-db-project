@@ -1,0 +1,13 @@
+erDiagram
+    users ||--o{ fridge_items : owns
+    ingredients ||--o{ fridge_items : stored_as
+    storage_locations ||--o{ fridge_items : located_at
+    fridge_items ||--o{ purchase_records : has
+    stores ||--o{ purchase_records : purchased_from
+    fridge_items ||--o{ item_consumptions : consumed
+    ingredients ||--o{ ingredient_categories : classified
+    categories ||--o{ ingredient_categories : contains
+    ingredients ||--o{ ingredient_tags : tagged
+    tags ||--o{ ingredient_tags : contains
+    ingredients ||--o{ ingredient_allergens : has
+    allergens ||--o{ ingredient_allergens : contains
