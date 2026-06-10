@@ -50,7 +50,4 @@ Relationship/기록 성격의 주요 테이블:
 - favorite_ingredients
 
 
-## 주의
 
-- `assets/images`의 파일명과 DB의 `ingredients.image_path` 값이 일치해야 합니다.
-- 보고서에는 SQL 실행 결과, Flet 실행 화면, 이미지 출력 화면, GitHub Public 화면을 직접 캡처해 넣으세요.
